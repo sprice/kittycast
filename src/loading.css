@@ -1,0 +1,13 @@
+.spinner {
+  width: 100vw;
+  height: calc(100vh - 5.25rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spin {
+  background: url("./assets/spinner.svg") no-repeat;
+  width: 100px;
+  height: 100px;
+}

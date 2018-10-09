@@ -1,0 +1,62 @@
+{
+  "name": "kittycast",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write --no-semi \"src/**/*.{js,css} \" ",
+    "format:check": "prettier --list-different --no-semi \"src/**/*.{js,css} \" ",
+    "lint": "eslint \"src/**/*.js\"",
+    "start": "node server",
+    "start-dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "express": "4.16.3",
+    "prop-types": "15.6.1",
+    "purecss": "1.0.0",
+    "react": "16.4.0",
+    "react-dom": "16.4.0",
+    "react-ga": "2.5.3",
+    "react-scripts": "2.0.3",
+    "serve-favicon": "2.5.0",
+    "truffle-contract": "3.0.5",
+    "typeface-open-sans": "0.0.54",
+    "web3": "1.0.0-beta.35"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run format:check && npm run test"
+    }
+  },
+  "engines": {
+    "node": "^10.2.1",
+    "npm": "^5.6.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "author": "Shawn Price",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprice/kittycast.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sprice/kittycast/issues"
+  },
+  "homepage": "https://www.kittycast.app"
+}

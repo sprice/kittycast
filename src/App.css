@@ -1,0 +1,46 @@
+.pure-g [class*="pure-u"],
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 0 10px;
+}
+
+h1.App-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  margin: 0.75rem 0;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+a,
+a:hover {
+  color: #0078e7;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 0.6875rem;
+  margin-top: 3rem;
+}
+
+.logos {
+  margin-top: 3rem;
+}
+
+.plus,
+.equals {
+  font-size: 2rem;
+}
+
+.tv,
+.cat {
+  font-size: 4rem;
+}
