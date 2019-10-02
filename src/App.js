@@ -177,7 +177,11 @@ class App extends Component {
     if (this.state.noAccounts) {
       noAccounts = (
         <div className="pure-u-1">
-          <p>Please connect to your Ethereum account using MetaMask.</p>
+          {/*<p>Please connect to your Ethereum account using MetaMask.</p>*/}
+          <p>
+            Thanks for poking around. This side-project needs to be updated to
+            the latest and greatest web3 tech.
+          </p>
         </div>
       )
     }
