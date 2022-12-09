@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "axios": "0.18.0",
-    "express": "4.16.3",
+    "express": "4.17.3",
     "prop-types": "15.6.1",
     "purecss": "1.0.0",
     "react": "16.4.0",
